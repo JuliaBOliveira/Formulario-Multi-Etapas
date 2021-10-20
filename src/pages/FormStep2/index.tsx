@@ -1,9 +1,12 @@
+import { Theme } from '../../components/Theme'
 import * as C from './styles'
 
 export const FormStep2 = () => {
     return (
-        <C.Container>
-            Passo 2
-        </C.Container>
+        <Theme>
+            <C.Container>
+                Passo 2
+            </C.Container>
+        </Theme>
     )
 }
